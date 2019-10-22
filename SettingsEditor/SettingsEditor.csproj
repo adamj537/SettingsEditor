@@ -59,13 +59,13 @@
       <DependentUpon>FormObjectEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="ObjectEditor\INamedObject.cs" />
-    <Compile Include="Items\ProjectItem.cs" />
-    <Compile Include="Items\TestSettings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ObjectEditor\Serializer.cs" />
     <Compile Include="ObjectEditor\Settings.cs" />
     <Compile Include="ObjectEditor\TreeNodeAttribute.cs" />
+    <Compile Include="SettingsClasses\ProjectItem.cs" />
+    <Compile Include="SettingsClasses\TestSettings.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
